@@ -417,6 +417,11 @@ section {
   font-size:x-large;
   }
 }
+@media (max-width: 768px){
+  .skills .progress{
+    font-size:small;
+    }
+}
 .skills .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
