@@ -260,6 +260,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     background-attachment: fixed;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -409,9 +410,13 @@ section {
   display: block;
   background: none;
   border-radius: 0;
-  font-size:medium;
+ 
 }
-
+@media (min-width: 1024px) {
+  .skills .progress{
+  font-size:x-large;
+  }
+}
 .skills .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
