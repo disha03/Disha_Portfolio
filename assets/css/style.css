@@ -320,7 +320,7 @@ section {
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 700;
-  font-size: 40px;
+ 
   color: #173b6c;
 }
 
@@ -350,7 +350,16 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
+@media (min-width: 1024px) {
+  .about .content h3 {
+  font-size:x-large;
+  }
+}
+@media (max-width: 768px){
+  .about .content h3 {
+    font-size:small;
+    }
+}
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
