@@ -431,7 +431,7 @@ section {
 
 @media (min-width: 1024px) {
   .skills .progress {
-    font-size: x-large;
+    font-size: large;
   }
 }
 
@@ -443,7 +443,7 @@ section {
   .about .content ul li {
     margin-bottom: 15px;
     display: flex;
-    font-size: 15px;
+    font-size: 13px;
     align-items: center;
   }
 
@@ -674,7 +674,7 @@ section {
 }
 
 .portfolio-details .portfolio-info h3 {
-  font-size: 22px;
+  font-size: 15px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -684,7 +684,7 @@ section {
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .portfolio-details .portfolio-info ul li+li {
@@ -696,7 +696,7 @@ section {
 }
 
 .portfolio-details .portfolio-description h2 {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 700;
   margin-bottom: 20px;
 }
