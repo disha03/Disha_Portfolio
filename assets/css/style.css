@@ -183,6 +183,10 @@ h6 {
   color: #149ddd;
 }
 
+.nav-headings {
+  padding-bottom: 100px;
+}
+
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
